@@ -48,7 +48,7 @@
             // 
             this.rotations.Location = new System.Drawing.Point(12, 220);
             this.rotations.Maximum = new decimal(new int[] {
-            25,
+            29,
             0,
             0,
             0});
