@@ -3,7 +3,7 @@ A program for rotating through all transliterlizations of runes from Liber Primu
 
 ## How to get
 
-* Download the zip file from [HockeyApp](https://rink.hockeyapp.net/apps/42af31455afd4767aa161653daca0c31/app_versions/1 "Download") here.
+* Download the zip file from [HockeyApp](https://rink.hockeyapp.net/apps/42af31455afd4767aa161653daca0c31/app_versions/2 "Download") here.
 * Extract the folder to wherever you would like
 * Run `BruteRotateGui.exe` in the folder
 
