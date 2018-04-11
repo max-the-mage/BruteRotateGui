@@ -1,13 +1,16 @@
 # BruteRotateGui
 A program for rotating through all transliterlizations of runes from Liber Primus
 
+## How to get
+
+* Download the zip file from [HockeyApp](https://rink.hockeyapp.net/apps/42af31455afd4767aa161653daca0c31/app_versions/1 "Download") here.
+* Extract the folder to wherever you would like
+* Run `BruteRotateGui.exe` in the folder
+
 ## How to use
 
-Clone the project to visual studio and open BruteRotateGui.sln
-Type each rune transliteral, seperated by a period, and spaces for, well, spaces.
-Transliterals that have multiple characters should be written like so: `ng(ing)`
-Choose the amount of rotations and click rotate. The rotated text and respective prime numbers will then be shown.
+* Type out each rune transilteral with a dot between, like so: `x.i.x.m ng(ing).s(z)`
+* Choose number of rotations
+* Click `Rotate`
 
-For example
-`x.i.x.m ng(ing).s(z)` with two rotations will output:
-`TEOTNG(ING) DB` and `59 41 59 79  89 61`
+NOTE: this program is not case sensitive. Transliterals with multiple characters should be written like this: `ng(ing)`.
