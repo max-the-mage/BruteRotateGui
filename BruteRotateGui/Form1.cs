@@ -41,18 +41,18 @@ namespace BruteRotateGui
             foreach(string x in uch) {
                 index = Array.IndexOf(characters, x);
 
-                if(index < 0)
-                {
-                    output = x + "is an invalid character, please try again.";
-                    primeOut = "";
-                    break;
-                }
-
                 if(Regex.IsMatch(x, @"\s"))
                 {
                     output += x;
                     primeOut += x;
                     continue;
+                }
+
+                if (index < 0)
+                {
+                    output = x + "is an invalid character, please try again.";
+                    primeOut = "";
+                    break;
                 }
 
                 if (index + rotate >= characters.Length) {
