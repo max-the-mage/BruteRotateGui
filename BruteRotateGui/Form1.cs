@@ -50,7 +50,7 @@ namespace BruteRotateGui
 
                 if (index < 0)
                 {
-                    output = x + "is an invalid character, please try again.";
+                    output = x + " is an invalid character, please try again.";
                     primeOut = "";
                     break;
                 }
