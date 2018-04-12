@@ -36,12 +36,22 @@ namespace BruteRotateGui
             ui = ui.ToUpper();
             uch = Regex.Split(ui, @"\.|(\s)");
 
+            foreach(string a in uch)
+            {
+                Console.WriteLine(a);
+            }
+
             rotate = (int)rotations.Value;
 
             foreach(string x in uch) {
                 index = Array.IndexOf(characters, x);
 
-                if(Regex.IsMatch(x, @"\s"))
+                if (x == "")
+                {
+                    break;
+                }
+
+                if (Regex.IsMatch(x, @"\s"))
                 {
                     output += x;
                     primeOut += x;
@@ -58,7 +68,7 @@ namespace BruteRotateGui
                 if (index + rotate >= characters.Length) {
                     output += characters[index + (rotate - characters.Length)];
                     primeOut += primes[index + (rotate - characters.Length)];
-                    primeOut += "_";
+                    primeOut += " ";
                 }
                 else
                 {
